@@ -11,13 +11,19 @@
   },
   "main": "index.js",
   "scripts": {
-    "build": "npm run build:content && npm run build:styles",
+    "build": "npm-run-all build:content build:styles",
     "build:content": "eleventy",
-    "build:styles": "tailwind build src/styles/tailwind.css -o dist/styles/tailwind.css",
-    "start": "eleventy --serve"
+    "build:styles": "postcss src/styles/tailwind.css -o dist/styles/tailwind.css",
+    "build:styles:prod": "npm run build:styles -- --env=production",
+    "watch:content": "eleventy --serve",
+    "watch:styles": "npm run build:styles -- --watch",
+    "start": "npm-run-all --parallel watch:content watch:styles"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
+    "autoprefixer": "^9.7.6",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.4.6"
   }
 }

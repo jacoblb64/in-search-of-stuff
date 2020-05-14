@@ -1,4 +1,6 @@
 @tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 h1 {
     @apply text-2xl;
@@ -9,6 +11,10 @@ h2 {
 h3 {
     @apply text-lg;
 }
+h4 {
+    @apply text-sm;
+}
 a {
-    @apply text-blue-600 underline;
+    @apply text-blue-600;
+    @apply underline;
 }
