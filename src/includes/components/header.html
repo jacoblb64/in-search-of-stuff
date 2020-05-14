@@ -2,8 +2,12 @@
     <a class="text-4xl font-sans font-hairline tracking-widest italic lowercase hover:text-white" href="/" title="home">
         In Search of Stuff
     </a>
-    {% for p in site.pages%}
-        {% capture pUrl %}/{{p}}/{% endcapture %}
-        <a class="hover:text-white active:text-white {% if page.url == pUrl %}active text-white{% endif %}" href="/{{p}}">{{p}}</a>
-    {% endfor %}
+    <ul class="flex flex-col md:flex-row items-center list-reset text-base">
+        {% for p in site.pages%}
+            {% capture pUrl %}/{{p}}/{% endcapture %}
+            <li class="md:mr-4 md:mb-0">
+                <a class="hover:text-white active:text-white {% if page.url == pUrl %}active text-white{% endif %}" href="/{{p}}">{{p}}</a>
+            </li>
+        {% endfor %}
+    </ul>
 </header>
