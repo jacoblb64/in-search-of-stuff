@@ -11,10 +11,13 @@
   },
   "main": "index.js",
   "scripts": {
-    "build": "eleventy",
+    "build": "npm run build:content && npm run build:styles",
+    "build:content": "eleventy",
+    "build:styles": "tailwind build src/styles/tailwind.css -o dist/styles/tailwind.css",
     "start": "eleventy --serve"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0"
+    "@11ty/eleventy": "^0.11.0",
+    "tailwindcss": "^1.4.6"
   }
 }
