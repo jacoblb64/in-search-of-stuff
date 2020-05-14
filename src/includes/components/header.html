@@ -2,5 +2,8 @@
     <a class="text-4xl font-sans font-hairline tracking-widest italic lowercase hover:text-white" href="/" title="home">
         In Search of Stuff
     </a>
-    <a class="hover:text-white active:text-white {% if page.url == "/posts/" %}active text-white{% endif %}" href="/posts">posts</a>
+    {% for p in site.pages%}
+        {% capture pUrl %}/{{p}}/{% endcapture %}
+        <a class="hover:text-white active:text-white {% if page.url == pUrl %}active text-white{% endif %}" href="/{{p}}">{{p}}</a>
+    {% endfor %}
 </header>
