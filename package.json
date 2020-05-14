@@ -12,6 +12,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npm-run-all build:content build:styles",
+    "build:prod": "npm-run-all build:content build:styles:prod",
     "build:content": "eleventy",
     "build:styles": "postcss src/styles/tailwind.css -o dist/styles/tailwind.css",
     "build:styles:prod": "npm run build:styles -- --env=production",

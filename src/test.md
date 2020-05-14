@@ -1,5 +1,5 @@
 ---
-layout: pagebase.html
+layout: layouts/pagebase.html
 pageTitle: Test Title
 ---
 

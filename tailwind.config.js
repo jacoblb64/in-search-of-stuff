@@ -3,7 +3,7 @@ module.exports = {
     "src/**/*.html"
   ],
   theme: {
-    extend: {},
+    extend: {}
   },
   variants: {},
   plugins: [],
