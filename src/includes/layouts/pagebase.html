@@ -9,8 +9,6 @@
 
         {% include components/header.html %}
 
-        <h1>{{ pageTitle }}</h1>
-
-        {{ content }}
+        {{ content | safe }}
     </body>
 </html>
