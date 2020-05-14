@@ -1,0 +1,20 @@
+{
+  "name": "in-search-of-stuff",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Jacob Barnett",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/jacoblb64/in-search-of-stuff#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacoblb64/in-search-of-stuff.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
