@@ -1,0 +1,11 @@
+---
+layout: layouts/pagebase.html
+pageTitle: Posts
+---
+
+{% for post in collections.posts %}
+    <h2>
+        <a class="link" href="{{ post.url }}">{{ post.data.pageTitle }}</a>
+    </h2>
+    <em>{{ post.date | date: "%Y-%m-%d" }}</em>
+{% endfor %}

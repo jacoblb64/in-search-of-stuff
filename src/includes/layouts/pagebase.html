@@ -1,11 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8" />
         <title>In Search of Stuff</title>
-        <link rel="stylesheet" href="/styles/tailwind.css">
+        <link rel="stylesheet" href="/styles/tailwind.css" />
     </head>
     <body>
+
+        {% include components/header.html %}
+
         <h1>{{ pageTitle }}</h1>
 
         {{ content }}
