@@ -2,12 +2,22 @@
 layout: layouts/pagebase.html
 pageTitle: Posts
 ---
+<div class="w-full">
+    <p class="homepage-card-text text-center">
+        found items
+    </p>
+    <hr class="w-full">
+</div>
 
-{% for post in collections.posts %}
-    <h2>
-        <a class="link" href="{{ post.url }}">{{ post.data.pageTitle }}</a>
-    </h2>
-    <em>{{ post.date | date: "%Y-%m-%d" }}</em>
-{% endfor %}
+<div class="flex flex-wrap justify-around">
+    {% for post in collections.posts %}
+        <div class="border border-t-8 m-1 p-20 shadow">
+            <h2>
+                <a class="link" href="{{ post.url }}">{{ post.data.pageTitle }}</a>
+            </h2>
+            <em>{{ post.date | date: "%Y-%m-%d" }}</em>
+        </div>
+    {% endfor %}
+</div>
 
 <hr>
