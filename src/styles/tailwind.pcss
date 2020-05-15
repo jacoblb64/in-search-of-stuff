@@ -1,6 +1,4 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 h1 {
     @apply text-2xl;
@@ -15,17 +13,13 @@ h4 {
     @apply text-sm;
 }
 a.link {
-    @apply text-blue-600;
-    @apply underline;
+    @apply text-blue-600 underline;
 }
-
-/* section.post p {
-    @apply pb-10;
-} */
 
 section.post {
     & p {
         @apply pb-10;
+        @apply text-gray-800;
     }
 
     & h3 {
@@ -35,5 +29,17 @@ section.post {
 
     & img + em {
         @apply text-gray-500;
+
+        & a {
+            @apply text-blue-400 underline;
+            
+            &:hover {
+                @apply text-gray-400;
+            }
+        }
     }
 }
+
+@tailwind components;
+
+@tailwind utilities;
