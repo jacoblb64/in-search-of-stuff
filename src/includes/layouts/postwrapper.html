@@ -2,11 +2,9 @@
 layout: layouts/pagebase.html
 ---
 
-<div class="px-5 md:px-10 flex flex-1 flex-col items-center">
-    <h1 class="font-hairline tracking-widest py-5">{{ pageTitle }}</h1>
-    <hr class="border-1 w-full my-2 border-blue-600" />
+<h1 class="font-hairline tracking-widest pt-5">{{ pageTitle }}</h1>
+<hr class="border-1 w-full w-3xl my-2 border-blue-600" />
 
-    <section class="post text:base text-justify max-w-3xl">
-        {{content | safe}}
-    </section>
-</div>
+<section class="post text:base text-justify max-w-3xl">
+    {{content | safe}}
+</section>

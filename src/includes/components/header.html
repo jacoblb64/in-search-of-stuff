@@ -6,7 +6,7 @@
         {% for p in site.pages%}
             {% capture pUrl %}/{{p}}/{% endcapture %}
             <li class="md:mr-4 md:mb-0">
-                <a class="hover:text-white active:text-white {% if page.url == pUrl %}active text-white{% endif %}" href="/{{p}}">{{p}}</a>
+                <a class="tracking-wide font-medium hover:text-white active:text-white {% if page.url == pUrl %}active text-white{% endif %}" href="/{{p}}">{{p}}</a>
             </li>
         {% endfor %}
     </ul>
