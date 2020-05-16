@@ -20,6 +20,21 @@ a.link {
     @apply text-4xl tracking-widest font-hairline;
 }
 
+.blink-white {
+    &:hover {
+        animation: blink 1.5s steps(2, end) infinite;
+    }
+}
+
+@keyframes blink {
+    0% {
+        color: white;
+    }
+    100% {
+        color: black;
+    }
+}
+
 section.post {
     & p {
         @apply pb-10;
@@ -36,7 +51,7 @@ section.post {
 
         & a {
             @apply text-blue-400 underline;
-            
+
             &:hover {
                 @apply text-gray-400;
             }
