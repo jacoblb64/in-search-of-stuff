@@ -1,6 +1,6 @@
 ---
-layout: layouts/pagebase.html
-pageTitle: About
+layout: layouts/BasePage.html
+pageTitle: What is this site?
 ---
 
 # What is this site?

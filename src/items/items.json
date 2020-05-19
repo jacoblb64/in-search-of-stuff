@@ -1,4 +1,4 @@
 {
-    "layout": "layouts/postwrapper.html",
+    "layout": "layouts/PostWrapper.html",
     "tags": ["items"]
 }

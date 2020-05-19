@@ -4,7 +4,7 @@
   "description": "",
   "author": "Jacob Barnett",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/jacoblb64/in-search-of-stuff#readme",
+  "homepage": "https://in-search-of-stuff.netlify.app",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jacoblb64/in-search-of-stuff.git"
@@ -13,10 +13,9 @@
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npm-run-all build:content build:styles",
-    "build:prod": "npm-run-all build:content build:styles:prod",
+    "build:prod": "NODE_ENV=production npm-run-all build:content build:styles",
     "build:content": "eleventy",
-    "build:styles": "postcss src/styles/tailwind.pcss -o dist/styles/tailwind.css",
-    "build:styles:prod": "npm run build:styles -- --env=production",
+    "build:styles": "postcss src/styles/main.pcss -o dist/styles/main.css",
     "watch:content": "eleventy --serve",
     "watch:styles": "npm run build:styles -- --watch",
     "start": "npm-run-all --parallel watch:content watch:styles"
@@ -24,6 +23,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
     "autoprefixer": "^9.7.6",
+    "eleventy-plugin-lazyimages": "^1.1.1",
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^7.1.1",
     "postcss-preset-env": "^6.7.0",

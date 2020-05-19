@@ -7,3 +7,6 @@ node_modules
 
 # built files
 dist
+
+# lazy images cache
+.lazyimages.json

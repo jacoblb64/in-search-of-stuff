@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>In Search of Stuff</title>
-        <link rel="stylesheet" href="/styles/tailwind.css" />
+        <link rel="stylesheet" href="/styles/main.css" />
     </head>
     <body class="flex flex-col h-full">
         {% include components/header.html %}
@@ -15,10 +15,12 @@
 
         {% include components/footer.html %}
 
-        <script
-            data-goatcounter="https://in-search-of-stuff.goatcounter.com/count"
-            async
-            src="//gc.zgo.at/count.js"
-        ></script>
+        {% if site.environment == "production" %}
+            <script
+                data-goatcounter="https://in-search-of-stuff.goatcounter.com/count"
+                async
+                src="//gc.zgo.at/count.js"
+            ></script>
+        {% endif %}
     </body>
 </html>

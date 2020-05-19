@@ -1,5 +1,11 @@
+const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
+
 module.exports = (config) => {
     config.addPassthroughCopy("src/assets");
+    
+    config.addPlugin(lazyImagesPlugin, {
+        transformImgPath: (imgPath) => { return `src/${imgPath}`}
+    });
 
     return {
         dir: {
@@ -8,5 +14,6 @@ module.exports = (config) => {
             includes: "includes",
             data: "data",
         },
+        environment: process.env.NODE_ENV,
     };
 };
