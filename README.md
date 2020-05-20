@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/478bb8e9-7f7b-4b3d-9e0c-37f2854433e7/deploy-status)](https://app.netlify.com/sites/in-search-of-stuff/deploys)
 
-# in-search-of-stuff
+# *[in search of stuff](http://in-search-of-stuff.com)*
 
 A personal review site to document some of the enchanting items that I've found.
 
