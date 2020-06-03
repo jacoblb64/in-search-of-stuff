@@ -11,4 +11,4 @@ The goals of this project are to have an incredibly lightwight, fast-loading and
 ## dev setup
 - `npm install`
 - `npm run build` - builds content with `eleventy` and styles with `postcss`
-- `npm run start` - serve and watch both sources for changes
+- `npm run start` - serve and watch both sources for changes 
