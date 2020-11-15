@@ -11,7 +11,7 @@ My first wallet was some nondescript, off-brand, off-leather bifold with credit 
 A few years later, I discovered the Mighty Wallet at design shop. It was covered in comic book panels and felt lightweight and organized. I had never heard of Tyvek, and loved the idea of it being durable and water resistant. $25 was achievable on my budget at the time and I decided to upgrade. Even the two-sectioned bill area felt like a luxury. Quickly, I couldn't imagine having a wallet of any other kind of material. I loved the simplicity and ease that it allowed me.
 
 ![A new Mighty Wallet](/assets/hawbuck-lean-wallet/mighty-wallet-new.jpg)
-*My last might wallet, brand new and untouched*
+*My last Mighty Wallet, brand new and untouched*
 
 Years passed and in university I found my wallet fraying at the edges, my now larger assortment of ID's and cards now poking out of the corners. I thought about moving on to something more "mature", more "refined", more "adult". I was even gifted a nice leather wallet one year that I spent some time with--but the bulk and heft of it never let me be comfortable with it.
 
@@ -59,7 +59,7 @@ As I continue to adhere to my back-pocket usage, the only issue with this wallet
 ![The inside of the Hawbuck Wallet](/assets/hawbuck-lean-wallet/new-inside.jpg)
 *The inside of the wallet, showing the card slots and inverse card pocket construction*
 
-The method of pulling cards out is a little bit of an interesting design and worth discussing. Wes' design includes ovular cutaways over the card slots. These help quickly identify what card is on top, and allow cards to be slid out the main opening using one's thumb. It's an extremely quick way to get the top card out, but is a small bit of a process getting those deeper in the stack. One has to push the cascading new items out and then choose from the bunch that extrudes. Other products often have similar sliding / cascading approaches for removing cards and this cutout is a really clever way of achieving it. I definitely think it could have room for improvement in future iterations, but I'm very happy with how it handles. I do sometimes long for the ease of accessing _the bottom_ card that my old Might Wallet gave me with it's angle-cropped entry.
+The method of pulling cards out is a little bit of an interesting design and worth discussing. Wes' design includes ovular cutaways over the card slots. These help quickly identify what card is on top, and allow cards to be slid out the main opening using one's thumb. It's an extremely quick way to get the top card out, but is a small bit of a process getting those deeper in the stack. One has to push the cascading new items out and then choose from the bunch that extrudes. Other products often have similar sliding / cascading approaches for removing cards and this cutout is a really clever way of achieving it. I definitely think it could have room for improvement in future iterations, but I'm very happy with how it handles. I do sometimes long for the ease of accessing _the bottom_ card that my old Mighty Wallet gave me with it's angle-cropped entry.
 
 Wear on it has been extremely light--the pattern shows zero fade, the stitching immovable, and no sign of warping or deforming. I've kept about the same number of cards and cash fairly consistently in it, and it's formed to that shape. The edges are bent from being sat on at the edge of my wallet, but that's not a bad thing. there's been some very light fraying on the outside edges, but it's easy to manage and mostly unnoticeable.
 
@@ -68,7 +68,7 @@ Some of the areas where I expected the most wear, such as the bottom inside fold
 The 50D outside face of the DCF has a matte texture which feels great to hold in the hand, and looks absorbs light nicely. It's also shown an incredible abrasive durability that's shown absolutely no nicks or scratches on it's surface. The inside card pockets appear to be constructed with the opposite arrangement, with the 50D facing inwards surrounding the cards. This clever construction means that repeated card insertion / removal is met with that same level of abrasive resistance as the outside, increasing the durability of the wallet.
 
 *** 
-### ad infinitum
+### conclusion
 
 A pure reduction of form of the bifold has left me with a reduction in a need for anything else out of the form factor. I'm only left eyeing some of Hawbuck's other creations, such as the passport wallets or Wes' new tripocket.
 
