@@ -15,14 +15,21 @@ layout: layouts/BasePage.html
         </p>
     </div>
 
-    <div class="border shadow rounded-sm p-5">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec arcu mi, ullamcorper sit amet lectus sed,
-            rhoncus vestibulum lectus. In blandit, metus id porta vulputate, odio augue tristique turpis, ut euismod
-            lacus eros a orci. Sed turpis purus, commodo ut elementum at, iaculis in erat. Pellentesque porttitor
-            dignissim finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod quis quam vel
-            blandit. Proin placerat nisl vitae purus cursus lacinia. Maecenas vitae tellus tempus, lacinia mauris vel,
-            placerat orci. Vivamus mi massa, eleifend vitae suscipit id, blandit et metus.
+    <div class="w-full">
+        <p class="homepage-card-text text-center">
+            found items
         </p>
+        <hr class="w-full">
+    </div>
+    
+    <div class="flex flex-wrap justify-around">
+        {% for item in collections.items %}
+            <div class="border border-t-8 m-1 p-20 shadow">
+                <h2>
+                    <a class="link" href="{{ item.url }}">{{ item.data.pageTitle }}</a>
+                </h2>
+                <em>{{ post.date | date: "%Y-%m-%d" }}</em>
+            </div>
+        {% endfor %}
     </div>
 </div>
