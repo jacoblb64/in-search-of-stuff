@@ -9,6 +9,9 @@
     "type": "git",
     "url": "git+https://github.com/jacoblb64/in-search-of-stuff.git"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf dist",
